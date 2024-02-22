@@ -10,7 +10,7 @@ interface Props {
     phone: string;
   }[];
 }
-//.
+
 const UserList: React.FC<Props> = ({ users }) => {
   return (
     <View style={styles.container}>
